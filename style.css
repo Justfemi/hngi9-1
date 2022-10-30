@@ -29,10 +29,11 @@ section {
 }
 
 .container hr {
-  color: #aeb8d1;
+  color: #c2cdea;
   width: 80%;
-  margin: 50px auto;
-  font-weight: lighter;
+  margin: auto;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .buttons-box {
@@ -50,11 +51,19 @@ section {
   margin-bottom: 15px;
 }
 
+.icons {
+  margin-bottom: 40px;
+}
+
+.icons img {
+  width: 30px;
+}
+
 footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0 20px;
+  padding: 30px;
 }
 
 footer h3{
@@ -69,6 +78,14 @@ footer h3{
   }
 
   footer div {
-    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .container hr {
+    width: 90%;
+  }
+
+  .buttons-box {
+    padding: 20px;
   }
 }
